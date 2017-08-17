@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+  max-width: auto;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+@font-face{
+	font-family: 'FuturaHandwritten';
+	font-style: normal;
+	src: url('./css/FuturaHandwritten.ttf') format('truetype');
+}
+
+.home {
+  max-width : 900px;
+  margin: 0 auto;
+  color: #0240d0;
+  align-self: center;
+  position:relative;
+
+}
+
+.particle {
+  position: absolute;
+}
+
+.homecontent {
+  max-width: 800px;
+  margin:auto;
+  margin-top: 100px;
+  display: grid;
+  color: #ff7777;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap:50px;
+}
+
+#expertise{
+  margin-top: 100px;
+  color:#264756;
+}
+
+.hc1{
+  border-radius: 10%;
+}
+
+.hc1:hover{
+  font-weight:600;
+}
+
+.hc2{
+  border-radius: 10%;
+}
+
+.hc2:hover{
+  font-weight:600;
+}
+
+
+.hc3{
+  border-radius: 10%;
+}
+
+.hc3:hover{
+  font-weight:600;
+}
+
+.hc4{
+  border-radius: 10%;
+}
+
+.hc4:hover{
+  font-weight:600;
+}
+
+.footer{
+  width:100%;
+
+  position:fixed;
+  bottom: 0;
+  right:0;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+
+
+
+/* Chrome, Safari, Opera */
+/*@-webkit-keyframes mymove {
+    from {background-color: white;}
+    to {background-color: blue;}
+}*/
+
+/* Standard syntax */
+/*@keyframes mymove {
+    from {background-color: white;}
+    to {background-color: blue;}
+}*/
+
+.name{
+  font-size: 15px;
+}
+
+.spec{
+  font-size: 15px;
+}
+
+.avatar{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.bio{
+  font-size: 15px;
+}
+
+.people-container{
+  margin-top: 100px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 40px;
+}
+
+
+.typew {
+  font-size: 40px;
+  font-family: "FuturaHandwritten";
+	font-size: 100%;
+  color: #03a9f4;
+}
+
+.tag-line {
+  position:relative;
+  animation-iteration-count: infinite;
+}
+
+.typed-cursor{
+  opacity: 1;
+  animation: typedjsBlink 0.7s infinite;
+  -webkit-animation: typedjsBlink 0.7s infinite;
+  animation: typedjsBlink 0.7s infinite;
+}
+@keyframes typedjsBlink{
+  50% { opacity: 0.0; }
+}
+@-webkit-keyframes typedjsBlink{
+  0% { opacity: 1; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1; }
+}
+.typed-fade-out{
+  opacity: 0;
+  transition: opacity .25s;
+  -webkit-animation: 0;
+  animation: 0;
+}

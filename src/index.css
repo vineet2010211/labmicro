@@ -1,0 +1,41 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "FuturaHandwritten";
+  background-color: #ffffff;
+  font-size: 30px;
+  /*background-image: url(./wm.png);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+canvas {
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
+.nav {
+  display:flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.active {
+  font-weight:bold;
+  border-bottom: 2px solid #d0021b;
+}
+
+.nav li {
+  margin-right: 15px;
+
+}
